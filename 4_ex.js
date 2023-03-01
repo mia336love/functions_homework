@@ -10,6 +10,5 @@ function uniqueValues(array) {
   return uniqArray;
 }
 
-//const result = uniqueValues(array);
-//console.log(result);
-console.log(uniqueValues(array));
+const result = uniqueValues(array);
+console.log(result);
