@@ -1,14 +1,22 @@
-const array = [20, 16, 17, 32, 16, 17, 20, 33, 15];
+const arr = [
+  "speed lover",
+  "save me",
+  "maybe tonite",
+  "speed lover",
+  "crazy little love",
+  "maybe tonite",
+  "maybe tonite",
+];
 
-uniqArray = [];
-function uniqueValues(array) {
-  for (let i = 0; i < array.length; i++) {
-    if (uniqArray.includes(array[i] === false)) {
-      uniqArray.push(array[i]);
+function isNumberInRange(arr) {
+  let unique = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (unique.includes(arr[i])) {
+      unique.push(arr[i]);
     }
   }
-  return uniqArray;
+  return unique;
 }
 
-const result = uniqueValues(array);
+const result = isNumberInRange(arr);
 console.log(result);
