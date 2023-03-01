@@ -1,5 +1,4 @@
 for (let i = 1; i <= 100; i++) {
-  //console.log(i);
   if (1 <= i && i <= 17) {
     console.log(i, "ребенок");
   }
